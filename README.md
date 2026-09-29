@@ -36,6 +36,10 @@ Coloque o arquivo CSV na raiz do projeto, no caminho:
 
 Os notebooks carregam os dados com `df = pd.read_csv("data/raw/creditcard.csv")`. Inicie o Jupyter na raiz do projeto para que esse caminho relativo e os imports de `src` sejam resolvidos corretamente.
 
+Neste projeto, o dataset é usado na EDA para explorar o desbalanceamento e as diferenças entre transações normais e fraudulentas; depois, serve de base para treinar e avaliar modelos de detecção de fraude.
+
+O Credit Card Fraud Detection reúne 284.807 transações ocorridas em dois dias, das quais 492 são fraudes (cerca de 0,172%). Foi publicado no Kaggle pelo Machine Learning Group da ULB, a partir de dados coletados e analisados em colaboração com a Worldline e a ULB. Fonte: [Credit Card Fraud Detection (Kaggle)](https://www.kaggle.com/mlg-ulb/creditcardfraud/data).
+
 O CSV não é incluído no repositório. O `.gitignore` exclui o dataset e ambientes/cache locais; o arquivo `data/raw/.gitkeep` preserva a pasta vazia.
 
 ## Ambiente e instalação
