@@ -119,7 +119,4 @@ Como fraudes representam somente 0,173% das transações, a acurácia deve ser i
 
 As versões compatíveis dos pacotes estão registradas em `requirements.txt`, incluindo pandas, scikit-learn, imbalanced-learn, XGBoost, matplotlib, seaborn e JupyterLab.
 
-## Próximos passos
 
-- Integrar um LLM para analisar as transações sinalizadas pelo modelo e apoiar a verificação de possíveis fraudes.
-- Desenvolver uma aplicação Streamlit para consultar previsões e visualizar os resultados do modelo de forma interativa.
