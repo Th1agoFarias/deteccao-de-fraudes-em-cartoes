@@ -85,7 +85,7 @@ O notebook compara Regressão Logística, Random Forest e XGBoost. Usa validaç�
 
 O SMOTE é aplicado dentro do pipeline, apenas aos dados de treino de cada fold. Como o SMOTE usa distâncias entre vizinhos, `StandardScaler` é aplicado antes dele. O threshold é escolhido na validação; o holdout permanece separado até a avaliação final.
 
-## Resultados documentados
+## Resultados
 
 O dataset contém 284.807 transações e 31 colunas: 284.315 transações normais e 492 fraudes (0,173%). A divisão estratificada usada no notebook tem 182.276 observações no treino, 45.569 na validação e 56.962 no holdout.
 
