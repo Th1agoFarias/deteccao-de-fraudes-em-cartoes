@@ -1,4 +1,5 @@
-# Credit Card Fraud Detection
+# Detecção de Fraudes em cartões
+
 
 Projeto de análise exploratória e classificação de transações com cartão de crédito para detectar fraudes. O fluxo completo, as interpretações e as métricas estão nos notebooks de EDA e modelagem.
 
