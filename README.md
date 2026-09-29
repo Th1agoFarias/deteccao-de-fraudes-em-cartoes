@@ -9,7 +9,7 @@ credit_fraud/
 ├── data/
 │   ├── raw/
 │   │   ├── .gitkeep
-│   │   └── creditcard.csv       # arquivo local, ignorado pelo Git
+│   │   └── creditcard.csv       
 │   └── .gitignore
 ├── notebooks/
 │   ├── classification_credit_EDA.ipynb
